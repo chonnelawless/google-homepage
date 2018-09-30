@@ -11,7 +11,7 @@ body {
       color: #000;
       opacity: 0.75;
       text-decoration: none;
-      text-decoration-line: none;
+      text-decoration-line: underline;
       text-decoration-style: none;
       text-decoration-color: none;
   } 
@@ -35,7 +35,6 @@ body {
       position: absolute;
       top: 10%;
       left: 30%;
-      border-radius: 15px
       
    } 
   
@@ -77,8 +76,8 @@ body {
   
    }
   
-  .button1,.button2{
-      float: left;
+  .button1{
+      
       display: block;
       cursor: default;
       font-family: arial,sans-serif;
@@ -88,21 +87,56 @@ body {
       min-width: 54px;
       padding: 0 16px;
       text-align: center;
+      opacity: .35;
+      border: 100px;
+      position:absolute;
+      top:55px;
+      left:15px;
+      width:200px;
+      height: 36px;
+      line-height: 27px;
+      
       }
-
-
-
-  .inputfile{
+  
+  .button2{
+      
       display: block;
+      cursor: default;
+      font-family: arial,sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      margin: 11px 4px;
+      min-width: 54px;
+      padding: 0 16px;
+      text-align: center;
+      opacity: .35;
+      border: 100px;
+        position:absolute;
+      top:55px;
+      right:15px;
+      width:200px;
+      height: 36px;
+      line-height: 27px;
+      
+      }
+  
+  .inputfile{
+          display: block;
       text-align:center;
       height: 30px;
       padding: 0;
       width: 500px;
-      
-
+  
   }
   
   .message{
   height: 100%;
   
+  }
+  
+  form {
+  position:absolute;
+  top:250px;
+  right:0;
+  width:1000;
   }
